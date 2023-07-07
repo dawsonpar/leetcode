@@ -1,2 +1,2 @@
-# leetcode
-A collection of the grind
+# Leetcode Grind
+This is a repo that keeps track of my Leetcode practice
