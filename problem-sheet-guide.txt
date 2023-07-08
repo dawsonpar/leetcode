@@ -1,0 +1,61 @@
+*** Array Problems ***
+Consider the following approaches:
+
+- Sort
+- Two pointers
+- Storing elements in a hash map or a set
+- Traverse the array with a sliding window
+
+------------------------------------------------------
+*** Stack Problems ***
+
+- Parsing questions
+    - Evaluating math expressions
+    - Brackets
+- About the stack itself
+    - Implement a stack using a queue
+    - Implement 2 stacks using a single array
+
+------------------------------------------------------
+*** Queue Problems ***
+
+- Traversing a tree in level order
+- BFS
+- Real examples using a queue
+    - Serving requests on a single shared resource, like a printer
+    - Handling of interrupts in real-time systems
+
+------------------------------------------------------
+*** Heap Problems ***
+
+- Similar to a queue but sorted
+    - Order is kept with a binary tree
+- Good for keeping track of ‘x’ min/max items
+
+------------------------------------------------------
+
+*** Linked List Problems ***
+
+Consider the following approaches:
+
+- Multiple passes
+    - Get length
+    - “Pre-process” elements in list
+- Two pointers
+    - One faster, one slower
+- Temp head
+    - Useful when problem requires returning a modified list (merging, deleting, rearranging)
+
+------------------------------------------------------
+
+*** Strings Problems ***
+
+Basic string operations: compare, join, split, substring search
+
+------------------------------------------------------
+
+*** Recursion Problems ***
+
+Used in tree generation and traversal, file system traversal, and linked list traversal
+
+------------------------------------------------------
