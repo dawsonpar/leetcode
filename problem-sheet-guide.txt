@@ -59,3 +59,12 @@ Basic string operations: compare, join, split, substring search
 Used in tree generation and traversal, file system traversal, and linked list traversal
 
 ------------------------------------------------------
+
+*** Binary Tree Problems ***
+
+- Think about appropriate Tree Traversal: Pre-order, in-order, post-order, level-order
+- Store nodes within a Hashmap or refer to later
+- Using binary search to find an element
+- Applying a level-order traversal with a queue
+
+------------------------------------------------------
