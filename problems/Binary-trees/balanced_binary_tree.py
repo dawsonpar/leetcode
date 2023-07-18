@@ -8,6 +8,7 @@ dfs
 Recursively ask for child height in tree and add one for parent. Check the balance at each node by looking at the right and left height of tree.
 """
 
+
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         # Create function to return the height of tree and collect balance at each node
@@ -15,7 +16,7 @@ class Solution:
             # Basecase is a Null Node, return 0
             if not root:
                 return 0
-            
+
             # Collect information regarding balance of node
             leftHeight = helper(root.left)
             rightHeight = helper(root.right)
@@ -23,7 +24,7 @@ class Solution:
                 nonlocal balanced
                 balanced = False
                 return 0
-            
+
             # Recursively return the max between height of left node and right node and add one for current node.
             return max(leftHeight, rightHeight) + 1
 
@@ -34,4 +35,4 @@ class Solution:
         helper(root)
 
         # Return the balance
-          return balanced
+        return balanced
